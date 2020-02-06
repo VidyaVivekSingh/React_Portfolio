@@ -76,7 +76,7 @@ const about = {
     contact: contact,
 }
 
-const User = {
+export const user = {
     name: String,
     profile: String,
     description: String,
@@ -99,5 +99,4 @@ const User = {
     projects: [project],
     about: about,
     declaration: String
-
 }
